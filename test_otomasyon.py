@@ -1,4 +1,4 @@
-
-gorev = input("Bugün tamamladığın görevi yaz: ")
-print(f"{gorev} görevi başarıyla tamamlandı Harika iş çıkardın")
+isim = input("adın: ").strip()
+yas = int(input("Yaşın: "))
+print(f"Hoş geldin {isim},{2025-yas}Doğumlusun")
 
